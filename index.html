@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Information</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <style>
+        .nav-link.active{
+            color:yellowgreen !important;
+        }
+        .text-light-muted{
+            color: white;
+            opacity:60%;
+        }
+        .navbar-brand{
+            font-size: 40px;
+        }
+        .navbar{
+            background-color: black;
+            opacity: 85%;
+        }
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#home"><span style="color:white">The</span><span style="color:greenyellow"> PineApple</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end " id="navbarNavAltMarkup">
+            <div class="navbar-nav lead fw-bold">
+              <a class="nav-link active"href="#home">Home</a>
+              <a class="nav-link" href="#info">Information</a>
+              <a class="nav-link" href="#recipe">Recipes</a>
+              <a class="nav-link" href="#more">More</a>
+              <a class="nav-link" href="#contact">Contact</a>
+            </div>
+          </div>
+        </div>
+    </nav>
+
+    <section class="min-vh-100 d-flex flex-row justify-content-left align-items-center" id="home" style="background-image:url('img/pineapple-banner-2.jpg'); background-size: cover;">
+        <div class="text-center" style="margin:150px">
+            <p class="display-1 text-light ">PineApple</p>
+            <h4 class="text-light-muted">The Most Delicious Fruit</h4>
+            <div class="d-grid col-20 max-auto">
+                <a class="btn btn-lg btn-light rounded-pill mb-2 " href="#info" role="button">Information</a>
+            </div>
+            
+        </div>
+    </section>
+    
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
