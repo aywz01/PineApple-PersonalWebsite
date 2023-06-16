@@ -1,0 +1,49 @@
+.nav-link.active{
+    color:yellowgreen !important;
+}
+.text-light-muted{
+    color: white;
+    opacity:60%;
+}
+.navbar-brand{
+    font-size: 40px;
+}
+.navbar{
+    background-color: black;
+    opacity: 85%;
+}
+.recip-img{
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+    
+    
+}
+
+.example .recip-img:hover{
+    background-color: black;
+    filter: brightness(40%);
+}
+
+
+
+.example {
+position: relative;
+text-align: center;
+}
+
+.content {
+font-size: 30px;
+font-family: 'Times New Roman', Times, serif;
+font-weight: 600;
+position: absolute;
+top: 90px;
+left: 15px;
+background-color:transparent;
+border: none;
+object-fit: cover;
+color: #9d770e;
+text-align: center;
+
+
+}
