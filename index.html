@@ -3,32 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fruit Information</title>
+    <title>PineApple</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
-
-    <style>
-        .nav-link.active{
-            color:yellowgreen !important;
-        }
-        .text-light-muted{
-            color: white;
-            opacity:60%;
-        }
-        .navbar-brand{
-            font-size: 40px;
-        }
-        .navbar{
-            background-color: black;
-            opacity: 85%;
-        }
-        .recip-img{
-            width: 100%;
-            height: 30vh;
-            object-fit: cover;
-        }
-    
-
-    </style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
@@ -120,18 +97,25 @@
     </section>
 
     
-    <section class="min-vh-100 d-flex flex-row justify-content-left align-items-center " id="recipes" style="background-image:url('img/pineapple-bg-main.png'); background-size: cover;">
-        <div class="container py-2 " id="recipes">
+    <section class="d-flex flex-row justify-content-left align-items-center py-5" id="recipes" style="background-image:url('img/pineapple-bg-main.png'); background-size: cover;">
+        <div class="container">
             <div class="justify-content-center">
                 <h2 class="fw-bold fs-1 text-uppercase text-light text-center py-5" >Recipes</h2>
                 <p class="text-light text-center">Here are some recipes that are made with the fresh and juicy pineapples.</p>
             </div>
             <div class="row pb-5">
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <img src="img/p-1.jpg" class="img-fluid img-thumbnail recip-img">
+                <div class="example col-lg-4 col-md-6 mb-4">
+                    <a href="#"><img  src="img/p-1.jpg" class="img-fluid img-thumbnail recip-img"></a>
+                    <div class="d-grid col-20 max-auto">
+                        <a class="btn btn-sm btn-light rounded-pill content" href="#info" role="button">Pineapple Ice-Cream</a>
+                    </div>
                 </div>
+
                 <div class="col-lg-4 col-md-6 mb-4">
-                    <img src="img/p-2.jpg" class="img-fluid img-thumbnail recip-img">
+                    <a href="#"><img  src="img/p-.jpg" class="img-fluid img-thumbnail recip-img"></a>
+                    <div class="d-grid col-20 max-auto">
+                        <a class="btn btn-sm btn-light rounded-pill content" href="#info" role="button">Pineapple Ice-Cream</a>
+                    </div>
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4">
                     <img src="img/p-3.jpg" class="img-fluid img-thumbnail recip-img">
