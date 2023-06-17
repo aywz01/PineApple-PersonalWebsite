@@ -33,7 +33,7 @@
     /*the element will be moved 50% of its own width to the left 
     and 50% of its own height upwards.*/
     background-color: #000000;
-    opacity: 65%;
+    opacity: 50%;
     color: rgb(207, 212, 61);
     font-size: 20px;
     padding: 12px 24px;
@@ -54,3 +54,11 @@ a{
 a:hover{
     color: rgb(207, 212, 61);
 }
+
+li{
+    list-style: square;
+    text-align: left;
+    font-size: 20px;
+    padding: 10px;
+}
+
