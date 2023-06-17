@@ -20,30 +20,37 @@
     
 }
 
-.example .recip-img:hover{
-    background-color: black;
-    filter: brightness(40%);
+.card-container {
+    position: relative;
+  }
+  
+.card-container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    transform: translate(-50%, -50%);
+    /*the element will be moved 50% of its own width to the left 
+    and 50% of its own height upwards.*/
+    background-color: #000000;
+    opacity: 65%;
+    color: rgb(207, 212, 61);
+    font-size: 20px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+.container .btn:hover {
+    opacity: 100%;
+  }
+
+a{
+    text-decoration: none;
+    border: none;
+    color: rgb(207, 212, 61);
 }
-
-
-
-.example {
-position: relative;
-text-align: center;
-}
-
-.content {
-font-size: 30px;
-font-family: 'Times New Roman', Times, serif;
-font-weight: 600;
-position: absolute;
-top: 90px;
-left: 15px;
-background-color:transparent;
-border: none;
-object-fit: cover;
-color: #9d770e;
-text-align: center;
-
-
+a:hover{
+    color: rgb(207, 212, 61);
 }
